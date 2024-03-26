@@ -1,0 +1,42 @@
+body {
+    background-color: #1a279e;
+    font-family: 'Segoe UI';
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(241, 145, 35);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f1b634;
+}
+
+input[type="text"] {
+    background-color: white;
+    color: #202020;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+#imgAvatar {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+label {
+    color: white;
+}
